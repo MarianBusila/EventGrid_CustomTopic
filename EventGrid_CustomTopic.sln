@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventGridConsumer", "EventGridConsumer\EventGridConsumer.csproj", "{44D1C4EA-7E9F-47DE-82EA-2113D4440750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridPublisher", "EventGridPublisher\EventGridPublisher.csproj", "{B7595D24-A9BE-406F-9CFE-37A170AC07BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44D1C4EA-7E9F-47DE-82EA-2113D4440750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D1C4EA-7E9F-47DE-82EA-2113D4440750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D1C4EA-7E9F-47DE-82EA-2113D4440750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D1C4EA-7E9F-47DE-82EA-2113D4440750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7595D24-A9BE-406F-9CFE-37A170AC07BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7595D24-A9BE-406F-9CFE-37A170AC07BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7595D24-A9BE-406F-9CFE-37A170AC07BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7595D24-A9BE-406F-9CFE-37A170AC07BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {424DEEB9-CD81-4044-AB77-279E780FDD91}
+	EndGlobalSection
+EndGlobal
